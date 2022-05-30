@@ -21,11 +21,9 @@ class BlogsController < ApplicationController
     end
   end
 
-
   private
 
   def blogs_params
     params.require(:blog).permit(:overview)
   end
-
 end

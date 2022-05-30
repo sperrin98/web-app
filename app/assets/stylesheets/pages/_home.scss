@@ -1,5 +1,17 @@
-.ml14 {
-  font-weight: 200;
-  font-size: 3.2em;
-  color: navy;
+
+.image {
+  position: relative;
+  width: max-content;
+  object-fit: cover;
+  display: block;
+}
+
+.banner {
+  z-index: 100;
+  position: absolute;
+  text-align: left;
+  width: 1420px;
+  height: 500px;
+  color: white;
+  font-family:'Courier New', Courier, monospace;
 }
